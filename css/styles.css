@@ -1,18 +1,20 @@
+/* Name: Ankit Kumayan 
+Student number: C0921273 */
+    
 body {
-    background-color: #bfb6e0;
+    background-color: #f8f8f8;
     margin: 0;
+    font-family: 'Arial', sans-serif;
     border: none;
     width: 100%;
     background-image: url('/images/main.jpg');
 }
 
 header {
-    height: 2em;
-    width: 100%;
-    background-color: #0e113f;
-    margin: 20px 0;
-    text-align: center;
-    padding: 10px;
+    background-color: #333;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    text-align: right;
 }
 
 header img {
@@ -23,8 +25,7 @@ header img {
 }
 
 nav {
-    padding: 1%;
-    margin-bottom: 1%;
+    padding: 10px;
 }
 
 nav a {
@@ -62,5 +63,5 @@ li {
 footer {
     text-align: center;
     margin-top: 20px;
-    font-size: 14px;
+    font-size: 12px;
 }
