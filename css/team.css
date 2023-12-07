@@ -1,0 +1,118 @@
+/* Name: Ankit Kumayan 
+Student number: C0921273 */
+
+/* Common styles can go here if needed */
+
+body {
+    background-color: #f8f8f8;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    background-color: #333;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    text-align: right;
+}
+
+header img {
+    float: left;
+    margin: 0; 
+    height: 40px;
+    width: 40px;
+}
+
+nav {
+    padding: 10px;
+}
+
+nav a {
+    color:white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: large;
+}
+
+div {
+    text-align: center;
+    margin: 20px 0;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+article {
+    flex: 1 1 300px;
+    margin: 10px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+article h2 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+article figure {
+    position: relative;
+}
+
+article img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+article figcaption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 0 0 5px 5px;
+}
+
+article p {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+aside {
+    flex: 0 1 100%;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+/* Navigation Link Styles */
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+nav a:hover {
+    background-color:white;
+    color: #e44d26;
+}

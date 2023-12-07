@@ -1,0 +1,106 @@
+    <!DOCTYPE html>
+    <!-- Name: Ankit Kumayan 
+        Student number: C0921273 -->
+    <html lang="en">
+    <head>
+        <title>Contact Us - Try Fry</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/contact.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <header>
+            <a href="index.html"><img src="images/banner.jpg" alt="Company Banner"></a>
+
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="team.html">Our Team</a>
+                <a href="specials.html">Specials</a>
+                <a href="training.html">Training</a>
+                <a href="media.html">Media</a>
+                <a href="faqs.html">FAQs</a>
+                <a href="contact.html">Contact Us</a>
+            </nav>
+        </header>
+
+        <main>
+
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Contact Information</legend>
+
+                    <ul>
+                        <li>
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" required autofocus>
+                        </li>
+
+                        <li>
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                        </li>
+
+                        <li>
+                            <label for="birthdate">DOB:</label>
+                            <input type="date" id="birthdate" name="birthdate" required>
+                        </li>
+    
+                        <li>
+                            <label>Gender:</label>
+                            <label for="male"><input type="radio" id="male" name="gender"> Male</label>
+                            <label for="female"><input type="radio" id="female" name="gender"> Female</label>
+                        </li>
+
+                        <li>
+                            <label for="category">Category:</label>
+                            <select id="category" name="category" required>
+                                <option value="general">General Inquiry</option>
+                                <option value="support">Customer Support</option>
+                                <option value="partnership">Partnership</option>
+                                <option value="Others">Others</option>
+                            </select>
+                        </li>
+
+        
+                        <li>
+                            <label for="series">Product:</label>
+                            <select id="series" name="series" required>
+                                <option value="Tube-type fryers">Tube-type fryers</option>
+                                <option value="Open-pot fryers">Open-pot fryers</option>
+                                <option value="Flat-bottom fryers">Flat-bottom fryers</option>
+                                <option value="Commercial pressure fryers">Commercial pressure fryers</option>
+                                <option value="Others">Others</option>
+                            </select>
+                        </li>
+
+                        <li>
+                            <label for="message">Message:</label>
+                            <textarea id="message" name="message" rows="2" required placeholder="Enter your message"></textarea>
+                        </li>
+
+    
+                        <li>
+                            <label for="subscribe">Subscribe</label>
+                            <input type="checkbox" id="subscribe" name="subscribe">
+                        </li>
+        
+                    </ul>
+                </fieldset>
+
+                <div class="form-buttons">
+                    <button type="submit">Submit Request</button>
+                    <button type="reset">Reset Form</button>
+                </div>
+            </form>
+        </main>
+
+        <footer>
+            <p>&copy; Copyright 2023. All Rights Reserved.</p>
+            <p><a href="mailto:info@tryfry.com">Request information</a></p>
+            <p>Ankit Kumayan C0921273</p>
+        </footer>
+
+    </body>
+    </html>

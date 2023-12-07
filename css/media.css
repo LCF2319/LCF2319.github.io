@@ -1,0 +1,80 @@
+/* Name: Ankit Kumayan 
+Student number: C0921273 */
+
+/* Reset some default styles */
+body, figure, h1, h2, h3, p {
+    margin: 0;
+}
+
+body {
+    background-color: #f8f8f8;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    background-color: #333;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    text-align: right;
+}
+
+header img {
+    float: left;
+    margin: 0;
+    height: 40px;
+    width: 40px;
+}
+
+nav {
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: large;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.audio-section,
+.video-section {
+    width: 45%;
+    margin: 20px 0;
+}
+
+audio, video {
+    width: 100%;
+    border: 2px solid #333;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+h2 {
+    color: #333;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+/* Navigation Link Styles */
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+nav a:hover {
+    background-color: white;
+    color: #e44d26;
+}

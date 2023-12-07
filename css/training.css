@@ -1,0 +1,108 @@
+/* Name: Ankit Kumayan 
+Student number: C0921273 */
+
+/* Common styles can go here if needed */
+
+body {
+    background-color: #f8f8f8;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    background-color: #333;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    text-align: right;
+}
+
+header img {
+    float: left;
+    margin: 0; 
+    height: 40px;
+    width: 40px;
+}
+
+nav {
+    padding: 10px;
+}
+
+nav a {
+    color:white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: large;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+#trainingTable {
+    width: 100%;
+    border-collapse: collapse; /* Apply collapse borders */
+    margin-top: 20px;
+    border: 2px solid #333; /* Apply a border style */
+}
+
+caption {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    border: 1px solid #333; /* Apply a border style to caption */
+    background-color: #333; /* Add a background color */
+    color: white; /* Set text color to contrast with the background */
+    padding: 8px; /* Add padding for better spacing */
+    text-align: center; /* Center align the text */
+}
+
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #333;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #e5e5e5;
+}
+
+/* Optional: Style the first column to include an image */
+td:first-child {
+    display: flex;
+    align-items: center;
+}
+
+td:first-child img {
+    margin-right: 10px;
+    max-width: 50px; /* Adjust the max-width based on your preference */
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+/* Navigation Link Styles */
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+nav a:hover {
+    background-color:white;
+    color: #e44d26;
+}
