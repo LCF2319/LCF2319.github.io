@@ -1,6 +1,8 @@
 /* Name: Ankit Kumayan 
 Student number: C0921273 */
 
+/* Common styles can go here if needed */
+
 body {
     background-color: #f8f8f8;
     margin: 0;
@@ -41,19 +43,19 @@ main {
 
 #trainingTable {
     width: 100%;
-    border-collapse: collapse;
+    border-collapse: collapse; /* Apply collapse borders */
     margin-top: 20px;
-    border: 2px solid #333; 
+    border: 2px solid #333; /* Apply a border style */
 }
 
 caption {
     font-size: 1.5em;
     margin-bottom: 10px;
-    border: 1px solid #333; 
-    background-color: #333; 
-    color: white; 
-    padding: 8px; 
-    text-align: center;
+    border: 1px solid #333; /* Apply a border style to caption */
+    background-color: #333; /* Add a background color */
+    color: white; /* Set text color to contrast with the background */
+    padding: 8px; /* Add padding for better spacing */
+    text-align: center; /* Center align the text */
 }
 
 
@@ -76,6 +78,7 @@ tr:hover {
     background-color: #e5e5e5;
 }
 
+/* Optional: Style the first column to include an image */
 td:first-child {
     display: flex;
     align-items: center;
@@ -83,7 +86,7 @@ td:first-child {
 
 td:first-child img {
     margin-right: 10px;
-    max-width: 50px;
+    max-width: 50px; /* Adjust the max-width based on your preference */
 }
 
 footer {

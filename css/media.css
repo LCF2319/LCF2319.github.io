@@ -1,6 +1,7 @@
 /* Name: Ankit Kumayan 
 Student number: C0921273 */
 
+/* Reset some default styles */
 body, figure, h1, h2, h3, p {
     margin: 0;
 }
