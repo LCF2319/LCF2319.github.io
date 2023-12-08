@@ -25,6 +25,7 @@ img {
     ol li {
         font-size: 14px;
     }
+    
 
     nav {
         text-align: center;
@@ -33,6 +34,11 @@ img {
     nav a {
         display: block;
         margin: 18px;
+    }
+
+    strong {
+        font-weight: bold;
+        color:  #e44d26;
     }
 }
 
@@ -54,6 +60,15 @@ img {
     ol li {
         font-size: 16px;
     }
+    ol li {
+        position: relative;
+        padding-left: 30px;
+        margin-bottom: 10px;
+        color: #5c5757;
+        font-size: 16px;
+        line-height: 1.5;
+        text-align: left;
+    }
     nav {
         text-align: center;
     }
@@ -61,6 +76,11 @@ img {
     nav a {
         display: block;
         margin: 0 20px;
+    }
+
+    strong {
+        font-weight: bold;
+        color:  #e44d26;
     }
 }
 
@@ -85,8 +105,10 @@ img {
 
     p {
         color: #555;
-        font-size: 16px;
-        line-height: 1.5;
+        font-size: 12px;
+        line-height: 0.5;
+        margin-top: 20px;
+       
     }
 
     ol {
@@ -98,23 +120,25 @@ img {
         position: relative;
         padding-left: 30px;
         margin-bottom: 10px;
-        color: #555;
+        color: #5c5757;
         font-size: 16px;
         line-height: 1.5;
+        text-align: left;
     }
 
     ol li::before {
         content: '\2022';
         position: absolute;
         left: 0;
-        color: #e44d26;
+        color: black;
         font-size: 20px;
     }
 
     strong {
         font-weight: bold;
-        color: #e44d26;
+        color:  #e44d26;
     }
+
 }
 
 /* Navigation Link Styles */
@@ -128,3 +152,5 @@ nav a:hover {
     background-color:white;
     color: #e44d26;
 }
+
+

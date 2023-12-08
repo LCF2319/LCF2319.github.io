@@ -41,7 +41,7 @@ main {
 }
 
 form {
-    width: 50%;
+    width: 55%;
     margin: auto;
 }
 
@@ -60,6 +60,17 @@ legend {
 label {
     display: block;
     margin-bottom: 5px;
+    text-align: left;
+}
+
+li.gender {
+    display: flex;
+    align-items: left;
+}
+
+label[for="male"],
+label[for="female"] {
+    margin-right: 20px;
 }
 
 input,
@@ -73,9 +84,14 @@ select {
     box-sizing: border-box;
 }
 
+.subscribe{
+    display: flex;
+    margin-left: auto;
+}
+
 .form-buttons {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 button {
