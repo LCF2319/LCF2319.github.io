@@ -1,8 +1,6 @@
 /* Name: Ankit Kumayan 
 Student number: C0921273 */
 
-/* Common styles can go here if needed */
-
 img {
     max-width: 100%;
     height: auto;
@@ -71,8 +69,8 @@ img {
     /* Styles for desktop viewport */
 
     main {
-        max-width: 800px; /* Adjust the maximum width as needed */
-        margin: 0 auto; /* Center the content */
+        max-width: 800px;
+        margin: 0 auto;
     }
 
     section {
@@ -106,16 +104,16 @@ img {
     }
 
     ol li::before {
-        content: '\2022'; /* Bullet point character */
+        content: '\2022';
         position: absolute;
         left: 0;
-        color: #e44d26; /* Adjust the color as needed */
+        color: #e44d26;
         font-size: 20px;
     }
 
     strong {
         font-weight: bold;
-        color: #e44d26; /* Adjust the color as needed */
+        color: #e44d26;
     }
 }
 
